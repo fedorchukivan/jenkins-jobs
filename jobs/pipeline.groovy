@@ -6,7 +6,7 @@ pipelineJob('app') {
     parameters{
       gitParameter{
         name('GIT_BRANCH')
-        defaultValue('master')
+        defaultValue('main')
         description('Branch or tag to use for jobs')
         type('PT_BRANCH_TAG')
         branch('')
